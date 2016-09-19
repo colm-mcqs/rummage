@@ -1,0 +1,31 @@
+{
+  "name": "rummage",
+  "version": "1.0.0",
+  "description": "Search recursively through a directory for file contents",
+  "main": "rummage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colmose/rummage.git"
+  },
+  "author": "colmose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colmose/rummage/issues"
+  },
+  "homepage": "https://github.com/colmose/rummage#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "pino": "^2.10.1",
+    "recursive-readdir": "^2.0.0",
+    "split2": "^2.1.0"
+  },
+  "devDependencies": {
+    "flush-write-stream": "^1.0.0",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0",
+    "streamtest": "^1.2.2"
+  }
+}

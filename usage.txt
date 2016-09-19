@@ -1,0 +1,11 @@
+
+  [0m[37m[1m[4mrummage[22m[39m[0m
+
+  [0mTo search recursively through files in a given folder, pass the folder to [33mrummage[39m:[0m
+
+     [33mrummage --dir=./mydir[39m
+
+  [36m[1mFlags[22m[39m
+  [0m-h | --help      Display Help
+  -v | --version   Display Version
+  -dir             directory to search through[0m
