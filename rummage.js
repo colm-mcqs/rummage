@@ -10,7 +10,6 @@ var log = pino({
 
 var replace = require('replacestream');
 var fs = require('fs');
-var optimist = require('optimist');
 var recursiveReaddir = require('recursive-readdir');
 function rummage (opts, stream){
     log.info(opts, 'rummaging....');
